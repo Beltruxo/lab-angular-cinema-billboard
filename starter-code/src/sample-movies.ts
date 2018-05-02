@@ -1,3 +1,4 @@
+const movieList = 
 [
   {
     id: 1,
@@ -15,8 +16,10 @@
       "Bob Gunton",
       "William Sadler",
       "Clancy Brown",
-      "Gil Bellows"
-    ]
+      "Gil Bellows",
+    ],
+      room: 1,
+      hours : ["19:30" , "22.30"],
   }, {
     id: 2,
     title: "The Godfather",
@@ -33,8 +36,10 @@
       "James Caan",
       "Richard S. Castellano",
       "Robert Duvall",
-      "Sterling Hayden"
-    ]
+      "Sterling Hayden",
+    ],
+      room: 2,
+      hours : ["19:30" , "22.30"],
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -51,8 +56,10 @@
       "Diane Keaton",
       "Robert De Niro",
       "John Cazale",
-      "Talia Shire"
-    ]
+      "Talia Shire",
+    ],
+      room: 3,
+      hours : ["19:30" , "22.30"],
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -69,10 +76,11 @@
       "Aaron Eckhart",
       "Michael Caine",
       "Maggie Gyllenhaal",
-      "Gary Oldman"
-    ]
+      "Gary Oldman",
+    ],
+      room: 4,
+      hours : ["19:30" , "22.30"],
   }, {
-  {
     id: 5,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -88,7 +96,10 @@
       "Ralph Fiennes",
       "Caroline Goodall",
       "Jonathan Sagall",
-      "Embeth Davidtz"
-    ]
+      "Embeth Davidtz",
+    ],
+      room: 5,
+      hours : ["19:30" , "22.30"],
   }
 ]
+export default movieList

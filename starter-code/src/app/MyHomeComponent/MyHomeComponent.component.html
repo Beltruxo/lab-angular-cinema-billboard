@@ -1,0 +1,9 @@
+<div>
+  <p *ngFor = 'let m of movies'>
+    {{m.title}}
+    <img src="{{m.poster}}" width="200" alt="">
+    {{m.id}}
+    <a [routerLink]="['/movie',m.id]">To movie</a>
+  </p>
+
+</div>
